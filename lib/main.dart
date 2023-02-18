@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
         initialRoute: '/',
         routes: {
           '/': (context) => CategoriesScreen(),
-          '/category-meals': (context) => CategoryMealsScreen()
+          CategoryMealsScreen.routeName: (context) => CategoryMealsScreen()
         });
   }
 }
