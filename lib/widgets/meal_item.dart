@@ -44,7 +44,9 @@ class MealItem extends StatelessWidget {
     }
   }
 
-  void selectMeal() {}
+  void selectMeal() {
+    Navigator.of(context).pushNamed(routeName)
+  }
 
   Widget build(BuildContext context) {
     return InkWell(
